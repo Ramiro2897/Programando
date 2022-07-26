@@ -1,1 +1,384 @@
-hola mundo
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/51240222b3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="bloque header">
+        <div class="centrar" id="fondo">
+            <div class="logo">
+                <h2>GLUP IN</h2>
+            </div>
+
+            <div class="search-box">
+                <input type="search" id="buscar" placeholder="Buscar destino...">
+                <span class="fa fa-search" id="btn"></span>
+                <div id="panel" class="panel"></div>
+            </div>
+            <div class="enlaces">
+                <ul>
+                    <li><a href="#">Precios y ofertas</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Iniciar sección</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--SEGUNDO BLOQUE-->
+    <div class="bloque-cartas servicios">
+        <div class="centrar">
+            <h4 class="texto-servicios">
+                DISFRUTA DE ESTOS LUGARES MÁGICOS <br> ESPECIALMENTE ESCOGIDOS PARA TI
+            </h4><br>
+        </div>
+        <div class="centrar contenedores">
+
+            <div class="contenidos">
+                <img src="img/imagen-caja1.jpeg" alt="imagen cartagena" class="img-servicios">
+                <h5>Baru Cartagena</h5> <br>
+                <p>Tarifa dinámica <br> 1,170,000</p>
+                <input type="submit" name="reserva" value="Reservar" class="boton">
+            </div>
+
+            <div class="contenidos">
+                <img src="img/imagen-caja2.jpg" alt="imagen cartagena" class="img-servicios">
+                <h5>Baru Cartagena</h5> <br>
+                <p>Tarifa dinámica <br> 1,170,000</p>
+                <input type="submit" name="reserva" value="Reservar" class="boton">
+            </div>
+
+            <div class="contenidos">
+                <img src="img/imagen-caja3.jpg" alt="imagen cartagena" class="img-servicios">
+                <h5>Baru Cartagena</h5> <br>
+                <p>Tarifa dinámica <br> 1,170,000</p>
+                <input type="submit" name="reserva" value="Reservar" class="boton">
+            </div>
+
+            <div class="contenidos">
+                <img src="img/imagen-caja4.jpg" alt="imagen cartagena" class="img-servicios">
+                <h5>Baru Cartagena</h5> <br>
+                <p>Tarifa dinámica <br> 1,170,000</p>
+                <input type="submit" name="reserva" value="Reservar" class="boton">
+            </div>
+
+            <div class="contenidos">
+                <img src="img/imagen-caja9.jpg" alt="imagen cartagena" class="img-servicios">
+                <h5>Baru Cartagena</h5> <br>
+                <p>Tarifa dinámica <br> 1,170,000</p>
+                <input type="submit" name="reserva" value="Reservar" class="boton">
+            </div>
+
+            <div class="contenidos">
+                <img src="img/imagen-caja6.jpg" alt="imagen cartagena" class="img-servicios">
+                <h5>Baru Cartagena</h5> <br>
+                <p>Tarifa dinámica <br> 1,170,000</p>
+                <input type="submit" name="reserva" value="Reservar" class="boton">
+            </div>
+
+            <div class="contenidos">
+                <img src="img/imagen-caja7.jpg" alt="imagen cartagena" class="img-servicios">
+                <h5>Baru Cartagena</h5> <br>
+                <p>Tarifa dinámica <br> 1,170,000</p>
+                <input type="submit" name="reserva" value="Reservar" class="boton">
+            </div>
+
+            <div class="contenidos">
+                <img src="img/imagen-caja8.jpg" alt="imagen cartagena" class="img-servicios">
+                <h5>Baru Cartagena</h5> <br>
+                <p>Tarifa dinámica <br> 1,170,000</p>
+                <input type="submit" name="reserva" value="Reservar" class="boton">
+            </div>
+        </div>
+    </div>
+
+    <!--TERCER BLOQUE-->
+    <div class="contenedor-principal">
+        <div class="centrar">
+            <h4 class="texto-servicios">
+                LO MÁS VISITADO
+            </h4>
+        </div>
+
+        <!-- Swiper -->
+        <div class="container centrar">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-container mySwiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja1.jpeg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja2.jpg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja9.jpg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja1.jpeg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja5.jpg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja4.jpg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!--CUARTO BLOQUE-->
+
+    <div class="contenedor-principal">
+        <div class="centrar">
+            <h4 class="texto-servicios">
+                ALOJAMIENTO EN CABAÑAS
+            </h4>
+        </div>
+
+        <!-- Swiper -->
+        <div class="container centrar">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-container mySwiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja1.jpeg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja2.jpg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja9.jpg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja1.jpeg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja5.jpg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/imagen-caja4.jpg" alt="imagen baru Cartagena">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h5>Baru Cartagena</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non,
+                                    modi
+                                    sunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+
+            <!--CUARTO BLOQUE-->
+
+    <footer class="bloque-contacto footer">
+        <div class="centrar-element">
+            <div class="centrar-contact">
+             <h3 class="text-footer">GLUP IN</h3>
+                    <ul>
+                    <li>
+                        <a href="#" id="links">¿Quienes somos?</a>
+                        <a href="#" id="links">Terminos y condiciones</a>
+                        <a href="#" id="links">Ayuda y asistencia</a>
+                        <a href="#" id="links">politica de privacidad</a>
+                    </li>
+                    </ul>
+            </div>
+        </div>          
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
